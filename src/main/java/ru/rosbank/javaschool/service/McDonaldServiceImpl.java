@@ -75,7 +75,7 @@ public class McDonaldServiceImpl implements McDonaldService {
         orderList.add(dto);
     }
 
-    private void removeItemInBasket(SaleDto dto) {
+    public void removeItemInBasket(SaleDto dto) {
         for (var e : orderList) {
             if (e.getId() == dto.getId()) {
                 orderList.remove(e);

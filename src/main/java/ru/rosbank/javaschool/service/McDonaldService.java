@@ -1,6 +1,7 @@
 package ru.rosbank.javaschool.service;
 
 import ru.rosbank.javaschool.dto.AbstractProductDetailsDto;
+import ru.rosbank.javaschool.dto.SaleDto;
 import ru.rosbank.javaschool.model.ProductModel;
 
 import java.util.List;
@@ -17,6 +18,8 @@ public interface McDonaldService {
     void removeById(int id);
 
     void addToBasket(ProductModel dto);
+
+    void removeItemInBasket(SaleDto dto);
 
     void createSale();
 
