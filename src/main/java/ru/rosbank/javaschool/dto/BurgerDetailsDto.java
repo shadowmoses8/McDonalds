@@ -2,7 +2,6 @@ package ru.rosbank.javaschool.dto;
 
 import lombok.Data;
 import ru.rosbank.javaschool.model.BurgerModel;
-import ru.rosbank.javaschool.model.PotatoModel;
 
 @Data
 public class BurgerDetailsDto extends AbstractProductDetailsDto {

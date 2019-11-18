@@ -3,7 +3,6 @@ package ru.rosbank.javaschool.model;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import ru.rosbank.javaschool.dto.BurgerDetailsDto;
 import ru.rosbank.javaschool.dto.DrinkDetailsDto;
 
 @Data

@@ -1,11 +1,11 @@
 package ru.rosbank.javaschool;
 
-import ru.rosbank.javaschool.dto.AbstractProductDetailsDto;
-import ru.rosbank.javaschool.model.BurgerModel;
-import ru.rosbank.javaschool.model.DrinkModel;
-import ru.rosbank.javaschool.repository.ProductRepositoryImpl;
-import ru.rosbank.javaschool.repository.SalesRepositoryImpl;
-import ru.rosbank.javaschool.service.McDonaldServiceImpl;
+//import ru.rosbank.javaschool.dto.AbstractProductDetailsDto;
+//import ru.rosbank.javaschool.model.BurgerModel;
+//import ru.rosbank.javaschool.model.DrinkModel;
+//import ru.rosbank.javaschool.repository.ProductRepositoryImpl;
+//import ru.rosbank.javaschool.repository.SalesRepositoryImpl;
+//import ru.rosbank.javaschool.service.McDonaldServiceImpl;
 
 public class Main {
     public static void main(String[] args) {

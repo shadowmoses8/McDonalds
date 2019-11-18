@@ -1,7 +1,6 @@
 package ru.rosbank.javaschool.model;
 
 import lombok.Data;
-import ru.rosbank.javaschool.dto.SaleDto;
 
 import java.util.ArrayList;
 import java.util.List;

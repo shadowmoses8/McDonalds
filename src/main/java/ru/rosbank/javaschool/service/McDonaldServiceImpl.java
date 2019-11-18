@@ -36,7 +36,6 @@ public class McDonaldServiceImpl implements McDonaldService {
         if (dto.getPrice() < 0) {
             throw new InvalidDataException("цена не может быть меньше 0");
         }
-        //ProductModel result;
         if (dto.getId() == 0) {
             productRepository.create(ProductModel.from(dto));
             return;
