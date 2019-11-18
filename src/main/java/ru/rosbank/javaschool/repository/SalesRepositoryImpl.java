@@ -14,10 +14,10 @@ import java.util.List;
 @Getter
 public class SalesRepositoryImpl {
     private final List<SaleModel> items = new LinkedList<>();
-    private int Id = 1;
+    private int id = 1;
 
     public void create(SaleModel model) {
-        model.setId(this.Id++);
+        model.setId(this.id++);
         items.add(model);
     }
 }
